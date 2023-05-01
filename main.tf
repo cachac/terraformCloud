@@ -3,3 +3,7 @@ resource "local_file" "demo01" {
   content         = "Este es mi primer lab de Terraform"
   # file_permission = "0644"
 }
+
+output "mensaje" {
+  value = "Hola !!!"
+}
